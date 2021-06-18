@@ -1,4 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.clear::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+img{
+  max-width: 100%;
+}
+p{
+  color: #717171;
+}
+.btn {
+	text-decoration: none;
+	background: #ec4c7a;
+	color: #fff;
+	padding: 10px 40px;
+	background-image: linear-gradient(140deg, #ec5093, #ed4b73);
+	border-radius: 5px;
+}
+/* start work  */
+
+.section-1{
+  background-image: url("./images/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 150px 0;
+}
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hero-sub {
+	width: 48%;
+	margin: 0 20px;
+}
+.hero-sub h1 {
+	color: #ec4c7a;
+	font-size: 45px;
+}
+.hero-sub h3 {
+	font-size: 30px;
+	font-weight: 500;
+}
+.hero-sub p {
+	color: #717171;
+	margin: 25px 0;
+}
+
+.hero-sub img{
+  max-width: 85%;
+}
+
+/* section end  */
+.section-2{
+  padding: 150px 0;
+  background: url('images/biography-bg.png');
+  background-repeat: no-repeat;
+}
+/* section end  */
+.section-3{
+	padding: 50px 0;
+	background: url('images/latest-work-bg.png');
+	background-repeat: no-repeat;
+	padding-bottom: 150px;
+}
+
+.work{}
+.work h1 {
+	text-align: center;
+	margin-bottom: 35px;
+	font-size: 40px;
+	font-weight: 500;
+}
+.work-sub {
+	width: 30%;
+	margin: 1.2%;
+}
+.work-sub img{}
+
+
+/* section end  */
+
+.section-4 {
+	padding: 50px 0;
+	background: url('images/footer-bg.png');
+	background-repeat: no-repeat;
+	padding-bottom: 150px;
+}
+.client{}
+.clint-1 {
+	padding: 30px 0;
+	padding-bottom: 50px;
+}
+.clint-1 h1 {
+	font-size: 50px;
+	text-align: center;
+	font-weight: 500;
+}
+
+
+.clint-2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.clint-2 h2 {
+	margin: 10px 0;
+	font-weight: 600;
+	font-size: 35px;
+}
+.clint-2 p{}
+
+.clint-3{}
+.clint-3 p {
+	font-size: 24px;
+	text-align: center;
+	color: #000;
+	font-weight: 500;
+	margin: 35px 0;
+}
+
+.clint-4 {
+	background-image: linear-gradient(140deg, #ec5093, #ed4b72);
+	border-radius: 15px;
+	text-align: center;
+	padding: 80px 0;
+}
+.clint-4 h3 {
+	color: #fff;
+	font-weight: 400;
+	font-size: 25px;
+  margin: 15px 0;
+}
+.clint-4 h1{
+  color: #fff;
+  font-weight: 500;
+	font-size: 35px;
+}
+
+/* footer */
+footer h4 {
+	text-align: center;
+	font-weight: 500;
+	color: #717171;
 }
